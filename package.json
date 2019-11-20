@@ -12,5 +12,8 @@
   "scripts": {
     "dev": "nuxt",
     "storybook": "start-storybook"
+  },
+  "devDependencies": {
+    "babel-preset-vue": "^2.0.2"
   }
 }
