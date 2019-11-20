@@ -4,5 +4,11 @@
   "main": "index.js",
   "repository": "https://github.com/Roadagain/storybook-with-moduled-vuex.git",
   "author": "Roadagain <ringoh72@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "nuxt": "^2.10.2"
+  },
+  "scripts": {
+    "dev": "nuxt"
+  }
 }
