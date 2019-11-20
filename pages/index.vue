@@ -7,14 +7,14 @@
 
 <script>
 export default {
-  data() {
-    return {
-      count: 0
-    };
+  computed: {
+    count() {
+      return this.$store.state.counter.count;
+    }
   },
   methods: {
     onClick() {
-      this.count++;
+      this.$store.commit("counter/countUp");
     }
   }
 };

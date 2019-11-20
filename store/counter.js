@@ -1,13 +1,7 @@
 export const state = () => ({ count: 0 })
 
 export const mutations = {
-  setCount(state) {
+  countUp(state) {
     state.count++
-  }
-}
-
-export const actions = {
-  increment(context) {
-    context.commit('countUp')
   }
 }
