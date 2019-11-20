@@ -1,8 +1,8 @@
-import InputForm from '../components/InputForm.vue'
+import InputForm from "../components/InputForm.vue";
 
-export default { title: 'Form' }
+export default { title: "Form" };
 
 export const inputForm = () => ({
   components: { InputForm },
-  template: '<input-form />'
-})
+  template: "<input-form />"
+});
