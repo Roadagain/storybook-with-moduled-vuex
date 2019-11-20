@@ -1,0 +1,8 @@
+{
+  "name": "storybook-with-moduled-vuex",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Roadagain/storybook-with-moduled-vuex.git",
+  "author": "Roadagain <ringoh72@gmail.com>",
+  "license": "MIT"
+}
