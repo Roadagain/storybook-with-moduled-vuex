@@ -1,4 +1,4 @@
-import CountUpButton from "../components/CountUpButton.vue";
+import CountUpButton from "../app/components/CountUpButton.vue";
 import store from "./store"
 
 export default { title: "Button" };

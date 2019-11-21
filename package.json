@@ -10,7 +10,7 @@
     "nuxt": "^2.10.2"
   },
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt app",
     "storybook": "start-storybook"
   },
   "devDependencies": {
