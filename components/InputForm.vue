@@ -1,5 +1,5 @@
 <template>
-  <input type="text" :value="value" @change="onChange" />
+  <input type="text" :value="value" @input="onInput" />
 </template>
 
 <script>
@@ -10,7 +10,7 @@ export default {
     }
   },
   methods: {
-    onChange(e) {
+    onInput(e) {
       const text = e.target.value;
       this.$store.commit("form/text/setValue", { text });
     }
