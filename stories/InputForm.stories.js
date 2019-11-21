@@ -1,4 +1,4 @@
-import InputForm from "../app/components/InputForm.vue";
+import InputForm from "../components/InputForm.vue";
 import store from "./store";
 
 export default { title: "Form" };

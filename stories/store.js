@@ -1,6 +1,6 @@
 import { Store } from "vuex";
 
-const requireContext = require.context("../app/store", true, /\.js$/);
+const requireContext = require.context("../store", true, /\.js$/);
 const keys = requireContext.keys();
 const storeObject = { modules: {} };
 
